@@ -17,7 +17,7 @@ const fetchRequest = async ({
   data?: any;
   headers?: any;
 }) => {
-  const requestOptions = {
+  const requestOptions:any = {
     method: method,
     headers: headers,
   };
